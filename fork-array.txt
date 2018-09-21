@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include<sys/types.h>
+#include<unistd.h>
+
+int main()
+{
+    int sum1=0;
+    int sum2=0;
+    int arr[]={10,3,4,5,15,16,21,8,30,24};
+    int i=fork();
+    if(i>0){
+    for(int k=0;k<5;k++){
+        sum1+=arr[k];
+        
+    }
+    printf("addition of first 5 element : %d\n",sum1 );
+    }
+    else if(i==0){
+        for(int i=5;i<10;i++){
+            sum2+=arr[i];
+        }
+    printf("addition of second 5 element :%d\n",sum2);
+        
+    }
+    
+    
+    
+
+    return 0;
+}
