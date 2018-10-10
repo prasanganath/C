@@ -1,0 +1,9 @@
+https://www.youtube.com/watch?v=ak0PzG_kBZAgame devolopment
+android
+web development
+networking
+how send email and verifyit by laraval
+
+9NYzDDygGXb28DL
+
+git clone <url>
